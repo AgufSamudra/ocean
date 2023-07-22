@@ -2,3 +2,8 @@ env/
 diagram/
 dataset/
 desc.txt
+
+# pypi
+build/
+dist/
+ocean_ml.egg-info/
