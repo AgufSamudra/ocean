@@ -38,6 +38,10 @@ model = AutoMLRegressor(X, y, categoric, tune_params=True)
 model.fit()
 ```
 
+## Pypi Link
+
+https://pypi.org/project/ocean-ml/
+
 ## Github Link
 https://github.com/AgufSamudra/ocean <br>
 [Ocean](https://github.com/AgufSamudra/ocean)
