@@ -7,7 +7,7 @@ df = pd.read_csv("[YOUR DATASET]")
 
 # split x and y data
 X = df.drop(columns="YOUR LABELS")
-y = df["YOUR LABEL"]
+y = df["YOUR LABELS"]
 
 # choice your categoric feature
 categoric = ["[LIST OF CATEGORIC FEATURE]"]
