@@ -8,7 +8,7 @@ setuptools.setup(
 	name="ocean-ml",
 
 	# version of the module
-	version="1.0.1",
+	version="1.0.5",
 
 	# Name of Author
 	author="Gufranaka Samudra",
@@ -38,7 +38,8 @@ setuptools.setup(
 		"scikit-learn==1.3.0",
 		"scipy==1.11.1",
 		"tabulate==0.9.0",
-		"xgboost==1.7.6"
+		"xgboost==1.7.6",
+		"pandas==2.0.3"
      ],
  
 	keywords=['python', 'ocean', 'machine', 'learning', 'machinelearning', 'automl'],
