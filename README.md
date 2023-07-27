@@ -6,9 +6,12 @@ Ocean is a package for machine learning workflows that makes it easier to create
 
 ## Feature
 
-This package will continue to be developed to add more features, but for now there is only one feature, namely automl.
+This package will continue to be developed to add more features, here are some features
+which is in package ocean
 
 - automl
+- preprocessing
+- save and load model
 
 ## Dependency
 
@@ -18,6 +21,7 @@ scikit-learn==1.3.0
 scipy==1.11.1
 tabulate==0.9.0
 xgboost==1.7.6
+pandas==2.0.3
 ```
 
 ## How to Install
@@ -25,17 +29,6 @@ xgboost==1.7.6
 You can install ocean with pip using this command:
 ```console
 pip install ocean-ml
-```
-
-## Example
-
-#### AutoML
-
-```python
-from ocean.automl import AutoMLRegressor
-
-model = AutoMLRegressor(X, y, categoric, tune_params=True)
-model.fit()
 ```
 
 ## Pypi Link
